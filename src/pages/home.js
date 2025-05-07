@@ -12,7 +12,6 @@ import { fetchCountries, setRegion } from '../redux/features/countriesSlice';
 import Card from '../components/Card';
 import CustomCarousel from '../components/Carousel';
 import noimg from '../assets/images/noimg.png'
-import { TbBrandGoogle } from 'react-icons/tb';
 import { FiFacebook, FiLinkedin, FiTwitter, FiYoutube } from 'react-icons/fi';
 const Home = () => {
   const dispatch = useDispatch();
@@ -101,7 +100,7 @@ const Home = () => {
         <Col xs={12} md={3}>
           <div className="p-2 border h-100 d-flex justify-content-center align-items-center gray-bg">
             <span className="text-muted">
-              <img  className = "img" src={noimg}  />
+              <img  className = "img" src={noimg}  alt={noimg} />
             </span>
           </div>
         </Col>

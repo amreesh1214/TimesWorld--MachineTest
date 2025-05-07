@@ -1,7 +1,7 @@
 
 // components/CustomCarousel.js
 import React from 'react';
-import { Carousel, Col, Row } from 'react-bootstrap';
+import { Carousel  } from 'react-bootstrap';
 import noimg from '../../assets/images/noimg.png';
 const CustomCarousel = () => {
     return (
